@@ -1,0 +1,105 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.speacialfont {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.bgmain {
+  background-image: url("/src/Spaceimgs/home/background-home-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100lvh;
+  width: 100lvw;
+}
+@media screen and (max-width: 1028px) {
+  .bgmain {
+    background-image: url("/src/Spaceimgs/home/background-home-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130lvh;
+    width: 100lvw;
+  }
+}
+@media screen and (max-width: 640px) {
+  .bgmain {
+    background-image: url("/src/Spaceimgs/home/background-home-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120lvh;
+    width: 100lvw;
+  }
+}
+.bgmain2 {
+  background-image: url("/src/Spaceimgs/destination/background-destination-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100lvh;
+  width: 100lvw;
+}
+@media screen and (max-width: 1028px) {
+  .bgmain2 {
+    background-image: url("/src/Spaceimgs/destination/background-destination-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160lvh;
+    width: 100lvw;
+  }
+}
+@media screen and (max-width: 640px) {
+  .bgmain2 {
+    background-image: url("/src/Spaceimgs/destination/background-destination-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180lvh;
+    width: 100lvw;
+  }
+}
+.bgmain3 {
+  background-image: url("/src/Spaceimgs/crew/background-crew-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100lvh;
+  width: 100lvw;
+}
+@media screen and (max-width: 1028px) {
+  .bgmain3 {
+    background-image: url("/src/Spaceimgs/crew/background-crew-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130lvh;
+    width: 100lvw;
+  }
+}
+@media screen and (max-width: 640px) {
+  .bgmain3 {
+    background-image: url("/src/Spaceimgs/crew/background-crew-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130lvh;
+    width: 100lvw;
+  }
+}
+navcont {
+  border-bottom: 2px solid transparent;
+  transition: 0.7s;
+
+}
+.active {
+  border-bottom: 2px solid;
+  border-color: rgb(144, 144, 144);
+  color: rgb(176, 176, 176);
+  transition: 0.7s;
+}
